@@ -1,3 +1,34 @@
-h1 {
-    color: blueviolet
+#headertop {
+  width:auto;
+  height:10px;
+  background-color:#00796B;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #B2DFDB;
+}
+.navbar-default {
+  color:#B2DFDB;
+  background-color:#009688;
+  border:0px;
+  border-radius:0px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #80CBC4;
+  background-color: #00695C;
+}
+.navbar-default .navbar-nav > .active > a {
+  color: #FFFFFF;
+  background-color: #FF9800;
+}
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #FFD180;
+  background-color: #FF6D00;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+  background-color: #00897B;
 }
