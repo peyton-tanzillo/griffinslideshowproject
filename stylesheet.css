@@ -1,3 +1,6 @@
+#myface {
+  padding-right:15px;
+}
 #headertop {
   width:auto;
   height:10px;
@@ -30,8 +33,6 @@
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand {
   color: #FFFFFF;
-  background-color: #00695C;
-  border-right: 10px #009688 solid;
   font-family: 'Six Caps', sans-serif;
   font-size: 40px;
 }
