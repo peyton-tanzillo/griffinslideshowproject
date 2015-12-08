@@ -37,3 +37,41 @@
   font-family: 'Six Caps', sans-serif;
   font-size: 40px;
 }
+#slideshow {
+  margin: 50px auto;
+  position: relative;
+  width: 1350px;
+  height: 650px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  z-index:1;
+}
+.caption_title {
+  color: #009688;
+  position:absolute;
+  left: 700px;
+  top: 475px;
+  z-index:2;
+}
+.caption {
+  position:absolute;
+  left: 700px;
+  top: 530px;
+  z-index:2;
+}
+canvas {
+  margin: 50px auto;
+  position: relative;
+  left: 40%;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
